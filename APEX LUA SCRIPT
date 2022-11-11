@@ -32,38 +32,32 @@ function OnEvent(event, arg)
     if (event == "MOUSE_BUTTON_PRESSED" and arg == 1)then
         if IsMouseButtonPressed(3)then
         repeat
-        MoveMouseRelative(1,1)
-        FastSleep(1.5)
-        MoveMouseRelative(1,1)
-        FastSleep(1.5)
-        MoveMouseRelative(1,1)
-        FastSleep(1.5)
-        MoveMouseRelative(1,1)
-        FastSleep(1.5)
-        MoveMouseRelative(-1,1)   
-        FastSleep(1.5)
-        MoveMouseRelative(-1,1)
-        FastSleep(1.5)
-        MoveMouseRelative(-1,1)
-        FastSleep(1.5)
-        MoveMouseRelative(-1,-1)
-        FastSleep(1.5)
-        MoveMouseRelative(-1,-1)
-        FastSleep(1.5)
-        MoveMouseRelative(-1,-1)
-        FastSleep(1.5)
-        MoveMouseRelative(-1,-1)
-        FastSleep(1.5)
-        MoveMouseRelative(1,-1)
-        FastSleep(1.5)
-        MoveMouseRelative(1,-1)
-        FastSleep(1.5)
-        MoveMouseRelative(1,-1)
-        FastSleep(1.5)
-        FastSleep(15)
-        until not IsMouseButtonPressed(1)
-        end
-      end
-    end
-  
-  
+        MoveMouelative(-1.2,1.2)
+        FastSleep(2.2)
+        MoveMouelative(-1.2,1.2)
+        FastSleep(2.2)
+        MoveMouseRelative(-1.2,1.2)
+        FastSleep(2.2)
+        MoveMouseRelative(-1.2,-1.2)
+        FastSleep(2.2)
+        MoveMouseRelative(-1.2,-1.2)
+        FastSleep(2.2)
+        MoveMouseRelative(-1.2,-1.2)
+        FastSleep(2.2)
+        MoveMouseRelative(-1.2,-1.2)
+        FastSleep(2.2)
+        MoveMouseRelative(1.2,-1.2)
+        FastSleep(2.2)
+        MoveMouseRelative(1.2,-1.2)
+        FastSleep(2.2)
+        MoveMouseRelative(1.2,-1.2)
+        FastSFastSleep(15)
+         until not IsMouseButtonPressed(1)
+         end
+       end
+     end
+   end
+
+        
+        
+    
